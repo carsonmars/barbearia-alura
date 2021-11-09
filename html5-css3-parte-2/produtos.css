@@ -1,0 +1,83 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0; /*Quando usa apenas duas propriedades, a primeira é top-bottom e a segunda left-right*/
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto; /*Quando usa apenas duas propriedades, a primeira é top-bottom e a segunda left-right*/
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin:  0 0 0 15px; /* top, right, bottom, left*/
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {  /*"Hover" comportamento do mouse está em cima do link*/
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /* Propriedade que deixa o valor do width 30% absoluto, a margin e o padding não aumentam o valor final.*/
+    border: 2px dashed #000000; /* tamanho, estilo, e cor.*/  
+    /* Também podem ser usadas >> border-width: ; border-style: ; border-color: ;  */
+    border-radius: 10px;
+}
+.produtos li:hover {
+    border: 3px dashed #BBBBBB;
+    color: #BBBBBB; 
+}
+
+.produtos li:active {
+    border-color: #088C19;
+    color: #088C19;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+footer {
+    text-align: center;
+    background: url("bg.jpg"); /*Usa-se uma imagem pequena e o CSS vai aplicando até preencher todo o espaço, ocupando menos banda do usuário*/
+    padding: 40px 0;
+}
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
