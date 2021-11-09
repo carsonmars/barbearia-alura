@@ -1,0 +1,42 @@
+/*"#" utilizado para selecionar um elemento HTML por ID.*/
+#banner {
+    width: 100%;
+}
+.principal {
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+.titulo-principal {
+    padding-left: 20px;
+}
+.titulo-centralizado {
+    text-align: center;
+}
+/*Seleção de elemento HTML através da <tag>.*/
+p {
+    text-align: center;
+}
+#missao {
+    font-size: 20px;
+}
+/* Está aplicando a todos as tag <strong> dentro de um <em>*/
+em strong {
+    color: #FF0000;
+}
+/*Quando usamos a seleção pro classe utilizamos um "." antes da classe*/
+.itens {
+    font-style: italic;
+}
+.beneficios {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagem-beneficios {
+    width: 50%;
+}
