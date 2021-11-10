@@ -173,7 +173,7 @@ form label {
 
 form input{
 	display: block;
-	margin: 20px;
+	margin: 20px 0;
 	padding: 10px 25px;
 	width: 50%;
 }
